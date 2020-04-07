@@ -1,6 +1,95 @@
-h1 {
-    color: aquamarine;
+
+* {
+    margin: 0;
+    padding: 0;
 }
-h2{
-    background-color: blue;
+/* HEADER */
+#banner{
+  width: auto;
+  height: 200px;
+  background-image: url('../img/bannerBeer.png');
+  background-repeat: no-repeat;
+}
+#mainTitle{
+  text-transform: uppercase;
+  text-align: center;
+  color: #FCDC12;
+  padding-top: 80px;
+  font-size: 50px;
+  text-shadow: 2px 1px 2px black;
+}
+#navBar{
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 757px;
+}
+
+#navBar li{
+  background-image: url('../img/inactiveButton.png');
+  border:2px solid black;
+  list-style: none;
+  color: white;
+  padding: 10px 25px;
+  text-shadow: 1px 1px 2px black;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 30px;
+  margin-top: 5px;
+
+}
+#navBar a{
+  color: white;
+}
+#navBar a:link{
+  text-decoration: none;
+}
+#navBar .activePage{
+  background-image: url('../img/backgroundButton.png');
+
+}
+/* FIN HEADER */
+body{
+  background-image: url('../img/bodyBackground.jpg');
+}
+ /* PRODUITS */
+#Annonce{
+  background-color: white;
+  border-color: 2px solid black;
+  border-radius: 7px;
+  margin: 20px 10%;
+  text-align: center;
+  color: red;
+}
+#d1{
+  margin: 0;
+  height: 100%;
+}
+.divBeer{
+  float: left;
+  margin: 20px 40px;
+  padding: 30px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 7px;
+  width: 40%;
+  height: 470px;
+  background-color: rgb(85, 82, 82, 0.6);
+}
+.divBeer h2{
+  background-color: maroon;
+  color: white;
+  border: 1px solid black;
+  border-radius: 7px;
+  margin: 0 15px 30px 15px;
+  padding: 15px; 
+  text-align: center;
+}
+.divBeer li{
+  display: block;
+  list-style-type: none;
+}
+.divBeer img{
+  padding-left: 35%;
+  padding-top: 55px;
+  padding-bottom: 12px;
 }
