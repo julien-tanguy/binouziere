@@ -14,8 +14,9 @@
   text-transform: uppercase;
   text-align: center;
   color: #FCDC12;
+  padding-top: 80px;
   font-size: 50px;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 2px 1px 2px black;
 }
 #navBar{
   justify-content: space-around;
@@ -25,7 +26,6 @@
 
 #navBar li{
   background-image: url('../img/inactiveButton.png');
-  /* background-color: #562a06; */
   border:2px solid black;
   list-style: none;
   color: white;
