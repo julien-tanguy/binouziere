@@ -24,23 +24,30 @@
             </nav>
         </header>
         <section>
-            <div id="hourly">
-                <ul>
-                    <li>Lundi : </li>
-                    <li>13h - 21h</li>
-                    <li>Mardi : </li>
-                    <li>13h - 21h</li>
-                    <li>Mercredi : </li>
-                    <li>13h - 21h</li>
-                    <li>Jeudi : </li>
-                    <li>13h - 21h</li>
-                    <li>Vendredi : </li>
-                    <li>13h - 21h</li>
-                    <li>Samedi : </li>
-                    <li>13h - 21h</li>
-                    <li>Dimanche : </li>
-                    <li>8h - 11h30</li>
-                </ul>
+            <div id="hourlyTel">
+                <div id="hourly">
+                    <ul>
+                        <li>Lundi : </li>
+                        <li>13h - 21h</li>
+                        <li>Mardi : </li>
+                        <li>13h - 21h</li>
+                        <li>Mercredi : </li>
+                        <li>13h - 21h</li>
+                        <li>Jeudi : </li>
+                        <li>13h - 21h</li>
+                        <li>Vendredi : </li>
+                        <li>13h - 21h</li>
+                        <li>Samedi : </li>
+                        <li>13h - 21h</li>
+                        <li>Dimanche : </li>
+                        <li>8h - 11h30</li>
+                    </ul>
+                </div>
+                <div class="whiteText" id="telNumber">
+                    <p>Téléphone : </p>
+                    <p>03.03.03.03.03</p>
+                    <p>06.06.06.06.06</p>
+                </div>
             </div>
             <div id="map">
                 <iframe id="googleMap"
@@ -50,14 +57,16 @@
             </div>
             <div id="contactForm">
                 <form>
-                    <h2 id="contactTitle">Nous Contacter</h2>
+                    <h2 class="whiteText" id="contactTitle">Nous Contacter</h2>
                     <input type="text" id="firstName" name="firstName" maxlength="15" placeholder="Nom" />
                     <input type="text" id="surName" name="surName" maxlength="15" placeholder="Prénom" />
                     <input type="mail" id="mail" name="mail" maxlength="256" placeholder="E-mail" />
                     <input type="text" id="mobile" name="mobile" maxlength="15" placeholder="Numéro de téléphone" />
+                    <input type="text" id="subject" name="subject" maxLength="110" placeholder="Sujet" />
                     <textarea maxlenght="1500" id="mailMessage" placeholder="Votre message içi." cols="55"
-                        rows="15"></textarea>
-                    <input type="checkbox" id="copie" /><label for="copie">Récuperer une copie</label>
+                        rows="10"></textarea>
+                    <input type="checkbox" id="copy" /><label id="copyTxt" class="whiteText" for="copy">Récuperer une
+                        copie</label>
                     <input class="sendButton" type="submit" value="Envoyer" />
                 </form>
             </div>
