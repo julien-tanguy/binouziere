@@ -3,27 +3,38 @@
     margin: 0;
     padding: 0;
 }
-header{
-  
+/* HEADER */
+#banner{
+  width: auto;
+  height: 200px;
+  background-image: url('../img/bannerBeer.png');
+  background-repeat: no-repeat;
 }
 #mainTitle{
   text-transform: uppercase;
   text-align: center;
+  color: #FCDC12;
+  font-size: 50px;
+  text-shadow: 1px 1px 2px black;
 }
 #navBar{
   justify-content: space-around;
   margin: 0 auto;
-  width: 390px;
+  width: 757px;
 }
 
 #navBar li{
-  background-color: grey;
-  border:1px solid black;
+  background-image: url('../img/inactiveButton.png');
+  /* background-color: #562a06; */
+  border:2px solid black;
   list-style: none;
   color: white;
-  padding: 10px;
+  padding: 10px 25px;
+  text-shadow: 1px 1px 2px black;
   display: inline-block;
-  border-radius: 10px;;
+  border-radius: 10px;
+  font-size: 30px;
+  margin-top: 5px;
 
 }
 #navBar a{
@@ -32,6 +43,11 @@ header{
 #navBar a:link{
   text-decoration: none;
 }
-.activePage{
-  
+#navBar .activePage{
+  background-image: url('../img/backgroundButton.png');
+
+}
+/* FIN HEADER */
+body{
+  background-image: url('../img/bodyBackground.jpg');
 }
