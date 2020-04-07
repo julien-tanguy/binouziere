@@ -50,4 +50,48 @@
 /* FIN HEADER */
 body{
   background-image: url('../img/bodyBackground.jpg');
+  margin: 20px 10%
+}
+
+p{
+  margin-left: 650px;
+ /*  height: 300px; */
+  /* background-color: white; */
+  WIDTH: 580px;
+  font-size: 24px;
+  background-color: rgba(238, 225, 225, 0.6);
+  text-align: center;
+  /* margin-block-start: 40px ; */
+  float: right;
+}
+
+#presentation {
+  background-color: white;
+  position:relative;
+  top: 40px;
+  width:580px;
+  margin-left: 650px;
+  text-align: center;
+  float: right;
+}
+
+#beer1 {
+  background-color: red;
+  /* display: inline-block; */
+  float: right;
+ width: 50%;
+ text-align: center;
+}
+
+#beer2{
+  background-color: green;
+  /* display: inline-block; */
+  float: left;
+  width: 50%;
+  text-align: center;
+} 
+
+#image {
+  display: inline-block;
+  margin-bottom: 200px;
 }
