@@ -1,6 +1,131 @@
-h1 {
-    color: aquamarine;
+
+* {
+    margin: 0;
+    padding: 0;
 }
-h2{
-    background-color: blue;
+/* HEADER */
+#banner{
+  width: auto;
+  height: 200px;
+  background-image: url('../img/bannerBeer.png');
+  background-repeat: no-repeat;
 }
+#mainTitle{
+  text-transform: uppercase;
+  text-align: center;
+  color: #FCDC12;
+  padding-top: 80px;
+  font-size: 50px;
+  text-shadow: 2px 1px 2px black;
+}
+#navBar{
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 757px;
+}
+
+#navBar li{
+  background-image: url('../img/inactiveButton.png');
+  border:2px solid black;
+  list-style: none;
+  color: white;
+  padding: 10px 25px;
+  text-shadow: 1px 1px 2px black;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 30px;
+  margin-top: 5px;
+
+}
+#navBar a{
+  color: white;
+}
+#navBar a:link{
+  text-decoration: none;
+}
+#navBar .activePage{
+  background-image: url('../img/backgroundButton.png');
+
+}
+/* FIN HEADER */
+body{
+  background-image: url('../img/bodyBackground.jpg');
+}
+
+#paragraphe{
+  font-size: 24px;
+  background-color: rgb(85, 82, 82, 0.6);
+  text-align: center;
+  border-radius: 20px;
+  float: left;
+  width: 50%;
+  height: 400px;
+}
+#paragraphe p{
+  margin: 5px 20px 5px 20px; 
+  margin-top: 70px;
+  color: white;
+  text-shadow: 2px 1px 2px black;
+}
+#selection {
+  margin-left: 10%;
+  margin-right: 10%;
+  float: left;
+}
+
+#image {
+  float: left;
+  width: 50%;
+  height: 400px;
+}
+#image img{
+  border-radius: 20px;
+}
+
+#presentationParent{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10px;
+}
+#commentaire{
+  float: left;
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  margin: 10px;
+}
+#commentaire p {
+  font-size: 20px;
+  width: 50%;
+  float: left;
+  margin-top: 50px;
+}
+#selectionbeer{
+  float:left;
+  width: 48%;
+  border-left: 3px;
+  background-color: rgb(85, 82, 82, 0.6);
+  border-radius: 20px;
+  margin-top: 10px;
+  height: 131px;
+}
+#selectionbeer h1{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 1px 2px black; 
+}
+#beer1 {
+  
+  float: left;
+  width: 50%;
+  text-align: left;
+  color: white;
+}
+
+#beer2 {
+  float: left;
+  width: 50%;
+  text-align: left;
+  color: white;
+  text-shadow: 2px 1px 2px black;
+} 
