@@ -63,6 +63,8 @@ body{
 #d1{
   margin: 0;
   height: 100%;
+  margin-left: 5%;
+  font-size: 20px;
 }
 .divBeer{
   float: left;
@@ -74,6 +76,26 @@ body{
   width: 40%;
   height: 470px;
   background-color: rgb(85, 82, 82, 0.6);
+}
+.divBeers{
+  float: left;
+  margin: 20px 40px;
+  padding: 30px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 7px;
+  width: 40%;
+  height: 470px;
+  background-color: rgb(85, 82, 82, 0.6);
+}
+.divBeers h2{
+  background-color: maroon;
+  color: white;
+  border: 1px solid black;
+  border-radius: 7px;
+  margin: 0 15px 30px 15px;
+  padding: 15px; 
+  text-align: center;
 }
 .divBeer h2{
   background-color: maroon;
@@ -88,8 +110,18 @@ body{
   display: block;
   list-style-type: none;
 }
+.divBeers li{
+  display: block;
+  list-style-type: none;
+}
 .divBeer img{
   padding-left: 35%;
-  padding-top: 55px;
+  padding-top: 10px;
   padding-bottom: 12px;
 }
+.divBeers img{
+  padding-top: 40px;
+  padding-left: 35%;
+  padding-bottom: 12px
+}
+/* FIN PRODUITS */ 
