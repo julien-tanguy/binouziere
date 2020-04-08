@@ -23,7 +23,6 @@
   margin: 0 auto;
   width: 757px;
 }
-
 #navBar li{
   background-image: url('../img/inactiveButton.png');
   border:2px solid black;
@@ -35,7 +34,6 @@
   border-radius: 10px;
   font-size: 30px;
   margin-top: 5px;
-
 }
 #navBar a{
   color: white;
@@ -45,7 +43,6 @@
 }
 #navBar .activePage{
   background-image: url('../img/backgroundButton.png');
-
 }
 /* FIN HEADER */
 body{
@@ -283,3 +280,117 @@ body{
   border-radius: 20px;
 }
 /*  FIN NOS PRESTATIONS */
+/* CONTACT */
+section{
+  width: auto;
+  height: 600px; 
+  padding: 0 10%;
+}
+#hourlyTel{
+  float: left;
+  width: 300px;
+}
+#hourly{
+  border-radius: 20px;
+  margin-top: 30px;
+  padding-left: 30px;
+  list-style: none;
+  background-color: rgb(85, 82, 82, 0.6);
+  height: 290px;
+  padding-top : 30px;
+}
+#telNumber{
+  margin-top: 10px;
+  border-radius: 20px;
+  padding: 10px 0;
+  text-align: center;
+  background-color: rgb(85, 82, 82, 0.6);
+}
+.whiteText{
+  text-shadow: 2px 1px 2px black;
+  color: white;
+}
+#hourly li{
+  text-shadow: 2px 1px 2px black;
+  color: white;
+  list-style: none;
+}
+#hourly li:nth-child(odd){
+  text-decoration: underline;
+}
+#hourly li:nth-child(even){
+padding-left : 75px;
+}
+#map{
+  margin-top: 30px;
+  margin-left: 2%;
+  float: left;
+}
+#contactForm{
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: 2%;
+  float: left;
+  background-color: rgb(85, 82, 82, 0.6);
+  width: 33%;
+  height: 450px;
+}
+#contactTitle{
+  text-align: center;
+  margin-top: 5px;
+}
+form input{
+  margin-left: 10%;
+  margin-top: 5%;
+  text-align: center;
+}
+form textarea{
+  margin-left: 10%;
+  margin-top: 5%;
+} 
+#copyTxt{
+  margin-left: 5px;
+}
+#subject{
+  width: 79%;
+  text-align: left;
+}
+.sendButton{
+  float: right;
+  padding: 5px;
+  margin-right: 12%;
+}
+#socialList li{
+  list-style: none;
+  float : right;
+}
+#socialList li:first-child{
+  margin-right : 10%;
+}
+#socialList img{
+  width: 50%;
+}
+.submitButton{
+  padding-top: 20px;
+  padding-right: 50px;
+  float:right;
+}
+/* FIN CONTACT */
+/* REDIRECTION */
+#thanks{
+  margin: 0 auto;
+  height: auto;
+  margin-top: 30px;
+  width: 50%;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 1px 2px black;
+  background-color: rgb(85, 82, 82, 0.6);
+  font-size: 30px;
+  border-radius: 20px;
+}
+#thanks li{
+  list-style: none;
+  margin: 30px;
+}
+/* FIN REDIRECTION */
